@@ -5,7 +5,7 @@ import re
 
 from liquid_tags.mdx_liquid_tags import LiquidTags
 
-from .core import get_html_from_filepath, fix_css
+from ipynb import get_html_from_filepath, fix_css
 
 
 SYNTAX = "{% notebook ~/absolute/path/to/notebook.ipynb [cells[start:end]] %}"

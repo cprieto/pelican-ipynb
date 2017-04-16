@@ -10,16 +10,14 @@ setup(
     url = 'https://github.com/danielfrg/pelican-ipynb',
     author = 'Daniel Rodriguez',
     author_email = 'df.rodriguez143@gmail.com',
+    packages = ['ipynb', 'ipynb.markup'],
     license = 'Apache License 2.0',
-    py_modules =  ['ipynb'],
     classifiers = [
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Software Development :: Build Tools",
         "Topic :: Text Processing",
-        'Topic :: Software Development :: Libraries :: Python Modules',
-        'Operating System :: OS Independent',
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.6",
         "Programming Language :: Python :: 2.7",
@@ -29,7 +27,6 @@ setup(
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6"],
-
     keywords = 'pelican markdown blog notebook ipython jupyter',
 
     install_requires = [

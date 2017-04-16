@@ -14,7 +14,7 @@ except ImportError:
 from pelican import signals
 from pelican.readers import MarkdownReader, HTMLReader, BaseReader
 
-from .ipynb import get_html_from_filepath, fix_css
+from ipynb import get_html_from_filepath, fix_css
 
 
 def register():
